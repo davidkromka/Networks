@@ -1,0 +1,156 @@
+#sap
+aa:802.3 - IEEE 802.3 LLC + SNAP
+ff:802.3 - Nowell 802.3 RAW
+00:Null LSAP
+02:Individual LLC Sublayer Mgt
+04:SNA Path Control (individual)
+06:Reserved for DoD IP
+0e:ProWay-LAN
+18:Texas Instruments
+42:Bridge Spanning Tree Protocol
+4e:EIA-RS 511
+5e:ISI IP
+7e:ISO 8208 (X.25 over IEEE 802.2 Type LLC)
+80:Xerox Network Systems (XNS)
+82:BACnet/Ethernet
+86:Nestar
+8e:ProWay-LAN (IEC 955)
+98:ARPANET Address Resolution Protocol (ARP)
+a6:RDE (route determination entity)
+bC:LBanyan VINES
+e0:Novell NetWare
+f0:IBM NetBIOS
+f4:IBM LAN Management (individual)
+f8:IBM Remote Program Load (RPL)
+fA:Ungermann-Bass
+fe:OSI Connectionless-mode Network Service: CLNP, ISIS, ESIS
+03:Group LLC Sublayer Mgt
+05:SNA Path Control (group)
+f5:IBM LAN Management (group)
+#ethertype
+0200:XEROX PUP
+0201:PUP Addr Trans
+0800:IPv4
+0801:X.75 Internet
+0805:X.25 Level 3
+0806:ARP
+0842:WakeOnLan
+22f0:AVTP
+22f3:TRILL
+22ea:SRP
+6002:DEC_MOP_RC
+6003:DECnet
+6004:DEC_LAT
+8035:Reverse ARP
+809b:AppleTalk
+80f3:AARP
+8100:VLAN_tagged_frame
+8102:SLPP
+8103:VLACP
+8137:Novell IPX
+8204:QNX_Qnet
+86dd:IPv6
+8808:Ethernet_flow_control
+8809:Ethernet_Slow_Protocol
+880B:PPP
+8819:CobraNet
+8847:MPLS_unicast
+8848:MPLS with upstream-assigned label
+8863:PPPoE_Discovery_Stage
+8864:PPPoE_Session_Stage
+887b:HomePlug_1.0_MME
+888E:EAP_over_LAN
+8892:PROFINET
+889a:HyperSCSI
+88a2:AoE
+88a4:EtherCAT
+88a8:QinQ
+88ab:Ethernet_Powerlink
+88b8:GOOSE
+88b9:GSE
+88ba:SV
+88cc:LLDP
+88cd:SERCOS_III
+88e1:HomePlug_Green_PHY
+88e3:MRP
+88e5:MACsec
+88e7:PBB
+88f7:PTP
+88f8:NC-SI
+88fb:PRP
+8902:CFM/OAM
+8906:FCoE
+8914:FCoE_INIT
+8915:RoCE
+891d:TTE
+893a:1905.1
+892F:HSR
+9000:Ethernet_Configuration_Testing
+f1c1:Redundancy
+#ip
+01:ICMP
+02:IGMP
+06:TCP
+09:IGRP
+11:UDP
+2f:GRE
+32:ESP
+33:AH
+39:SKIP
+58:EIGRP
+59:OSPF
+73:L2TP
+#udp
+0007:echo
+0013:chargen
+0025:time
+0035:domain
+0043:bootps (DHCP)
+0044:bootpc (DHCP)
+0045:tftp
+0089:netbios-ns
+008a:netbios-dgm
+00a1:snmp
+00a2:snmp-trap
+01f4:isakmp
+0202:syslog
+0208:rip
+829a:traceroute
+#tcp
+007:echo
+0013:chargen
+0014:ftp-data
+0015:ftp-control
+0016:ssh
+0017:telnet
+0019:smtp
+0035:domain
+004f:finger
+0050:http
+006e:pop3
+006f:sunrpc
+0077:nntp
+008b:netbios-ssn
+008f:imap
+00b3:bgp
+0185:ldap
+01bb:https
+01bd:microsoft-ds
+0438:socks
+#icmp
+00:Echo (Ping) reply
+03:Destination Unreachable
+04:Source Quench
+05:Redirect
+08:Echo (Ping) request
+09:Router Advertisement
+0a:Router Selection
+0b:Time Exceeded
+0c:Parameter Problem
+0d:Timestamp
+0e:Timestamp Reply
+0f:Information Request
+10:Information Reply
+11:Address Mask Request
+12:Address Mask Reply
+1e:Traceroute
